@@ -17,10 +17,7 @@ def quicksort(items):
 
 try:
     user_list = list(map(int, input('Введіть список чисел для сортування через пробіл: ').split()))
-    
-    # Сортуємо отриманий список
     sorted_list = quicksort(user_list)
-    
     print(f"Початковий список: {user_list}")
     print(f"Відсортований список: {sorted_list}")
 
